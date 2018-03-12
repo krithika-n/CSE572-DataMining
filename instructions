@@ -1,0 +1,9 @@
+1. Open dataConcatenation.m
+2. Change the directory names suiting your systems
+3. Run dataConcatenation.m
+4. 10 different files will be generated all in the format merged*.csv
+5. Run fftdm.m
+6. On the top, click on apps, then classification learner.
+7. In the new window, click new session on the top left corner.
+8. select the variable 'forGraph' in the drop down list and click 'OK'/run.
+9. The graph will be displayed

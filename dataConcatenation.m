@@ -20,7 +20,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv',data2);
 
@@ -46,7 +46,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedAnd.csv',data2);
 
@@ -72,7 +72,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedCan.csv',data2);
 
@@ -98,7 +98,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedCop.csv',data2);
 
@@ -124,7 +124,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedDeaf.csv',data2);
 
@@ -150,7 +150,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedDecide.csv',data2);
 
@@ -176,7 +176,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedFather.csv',data2);
 
@@ -202,7 +202,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedFind.csv',data2);
 
@@ -228,7 +228,7 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedGoOut.csv',data2);
 
@@ -254,6 +254,6 @@ for K=1 : length(fileNames)
     
     %T1 = table2array(readtable('/Users/tej/Documents/CSE572-DataMining/mergedAbout.csv'));
     disp(size(data2));
-    data2 = horzcat(data2,data');
+    data2 = vertcat(data2,data');
 end
 csvwrite('/Users/tej/Documents/CSE572-DataMining/mergedHearing.csv',data2);
